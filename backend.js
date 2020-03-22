@@ -26,7 +26,7 @@ function PickRandomWord(frm) {
 // Display the word inside the text box
     frm.WordBox.value = characters.pop()
     save()
-    render()
+    // render()
 }
 
 function generate_characters(form) {
@@ -62,7 +62,7 @@ function generate_characters(form) {
     console.log(characters)
     remove()
     save()
-    render()
+    // render()
 }
 
 function add_character(nb, name) {
@@ -98,4 +98,4 @@ function empty_posts() {
         .write()
 }
 
-render()
+// render()
